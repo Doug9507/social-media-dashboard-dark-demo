@@ -3,6 +3,11 @@
 Proyecto de maquetación y diseño haciendo uso de responsive design mobile first, las tecnologias usadas fueron HTML, CSS y Javascript.
 El proyecto se basa en las estadísticas de las redes sociales del autor, con datos estáticos recopilados a la fecha 07/06/20 (algunos datos pueden ser ficticios).
 
+El proyecto es parte de uno de los challenges de frontendmentor https://www.frontendmentor.io/ 
+Plataforma que pone aprueba tus habilidades de frontend.
+
+Prueba el proyecto en https://doug9507.github.io/social-media-dashboard-dark-demo/
+
 ## Para los estilos se hizo uso de:
 - Variables de CSS.
 - FlexBox.
