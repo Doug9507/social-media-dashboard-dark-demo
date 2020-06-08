@@ -3,7 +3,182 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Social Media DashBoard</title>
 	</head>
-	<body></body>
+	<body>
+		<header class="header">
+			<div class="wrapper">
+				<div class="header-wrap">
+					<div class="header-left-side">
+						<h1>Social Media DashBoard</h1>
+						<p class="header-total">Total Followers: 183</p>
+					</div>
+					<div class="dark-mode">
+						<p class="dark-mode-title">Dark Mode</p>
+						<input type="checkbox" id="checkbox" class="checkbox" />
+						<label class="switch" for="checkbox"></label>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="wrapper">
+			<section class="section-cards">
+				<div class="grid">
+					<article class="card linkedin">
+						<div class="card-title">
+							<img src="src/img/linkedin.svg" alt="facebook" />
+							@jaime-douglas-perez-barbaran
+						</div>
+						<p class="card-followers">
+							<span class="card-followers-number">19</span>
+							<span class="card-followers-title">Followers</span>
+						</p>
+						<p class="card-today"><img src="src/img/icon-up.svg" alt="subida" /> 2 Today</p>
+					</article>
+					<article class="card github">
+						<div class="card-title">
+							<img src="src/img/github.svg" alt="facebook" />
+							@Doug9507
+						</div>
+						<p class="card-followers">
+							<span class="card-followers-number">0</span>
+							<span class="card-followers-title">Followers</span>
+						</p>
+						<p class="card-today"><img src="src/img/icon-up.svg" alt="subida" /> 0 Today</p>
+					</article>
+					<article class="card facebook">
+						<div class="card-title">
+							<img src="src/img/facebook.svg" alt="facebook" />
+							@douglas.perezbarbaran
+						</div>
+						<p class="card-followers">
+							<span class="card-followers-number">106</span>
+							<span class="card-followers-title">Followers</span>
+						</p>
+						<p class="card-today"><img src="src/img/icon-up.svg" alt="subida" /> 12 Today</p>
+					</article>
+					<article class="card instagram">
+						<div class="card-title">
+							<img src="src/img/instagram.svg" alt="facebook" />
+							@doug.perez
+						</div>
+						<p class="card-followers">
+							<span class="card-followers-number">158</span>
+							<span class="card-followers-title">Followers</span>
+						</p>
+						<p class="card-today"><img src="src/img/icon-up.svg" alt="subida" /> 8 Today</p>
+					</article>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper">
+			<h2>Overview - Today</h2>
+			<section class="overview">
+				<div class="grid">
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Message</div>
+							<div class="small-card-image"><img src="src/img/linkedin.svg" alt="icono" /></div>
+							<div class="small-card-number">13</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number">
+									<img src="src/img/icon-up.svg" alt="icono" />4%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Profile Views</div>
+							<div class="small-card-image"><img src="src/img/linkedin.svg" alt="icono" /></div>
+							<div class="small-card-number">23</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number is-danger">
+									<img src="src/img/icon-down.svg" alt="icono" />10%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Page Views</div>
+							<div class="small-card-image"><img src="src/img/facebook.svg" alt="icono" /></div>
+							<div class="small-card-number">20</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number">
+									<img src="src/img/icon-up.svg" alt="icono" />10%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Likes</div>
+							<div class="small-card-image"><img src="src/img/facebook.svg" alt="icono" /></div>
+							<div class="small-card-number">230</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number is-danger">
+									<img src="src/img/icon-down.svg" alt="icono" />70%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Stars</div>
+							<div class="small-card-image"><img src="src/img/github.svg" alt="icono" /></div>
+							<div class="small-card-number">2</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number">
+									<img src="src/img/icon-up.svg" alt="icono" />1%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Forks</div>
+							<div class="small-card-image"><img src="src/img/github.svg" alt="icono" /></div>
+							<div class="small-card-number">0</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number is-danger">
+									<img src="src/img/icon-down.svg" alt="icono" />0%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Likes</div>
+							<div class="small-card-image"><img src="src/img/instagram.svg" alt="icono" /></div>
+							<div class="small-card-number">200</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number">
+									<img src="src/img/icon-up.svg" alt="icono" />50%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="small-card">
+						<div class="grid-small">
+							<div class="small-card-title">Profile Views</div>
+							<div class="small-card-image"><img src="src/img/instagram.svg" alt="icono" /></div>
+							<div class="small-card-number">380</div>
+							<div class="small-card-percentage">
+								<div class="small-card-percentage-number">
+									<img src="src/img/icon-up.svg" alt="icono" />82%
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="src/js/app.js"></script>
 </html>
